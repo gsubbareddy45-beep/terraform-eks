@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: python-service
+spec:
+  type: LoadBalancer   # Exposes app to internet
+
+  selector:
+    app: python-app
+
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
