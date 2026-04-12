@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: 597088033381.dkr.ecr.ap-south-1.amazonaws.com/python-app:IMAGE_TAG # CI will replace d96dd92312250ee029378dee98ae4837afe9e4d0
+        image: 597088033381.dkr.ecr.ap-south-1.amazonaws.com/python-app:632958d5a66dedba94b833959b7812689405ec55 # CI will replace d96dd92312250ee029378dee98ae4837afe9e4d0
 
         ports:
         - containerPort: 5000
